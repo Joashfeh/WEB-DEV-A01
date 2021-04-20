@@ -1,0 +1,121 @@
+html,
+body {
+	margin: 0px;
+	height: 100%;
+	background-color: black;
+	color: white;
+	font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+.topnav {
+	background-color: #777;
+	overflow: hidden;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: #4caf50;
+	color: white;
+}
+
+.parallax1 {
+	/* The image used */
+	background-image: url("https://i.imgur.com/ywi5wz7.jpg");
+	min-height: 100%;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax2 {
+	/* The image used */
+	background-image: url("https://static.wixstatic.com/media/6aba0264aa1c4c1db721864802e37b42.jpg/v1/fill/w_1291,h_480,al_c,q_85,usm_0.66_1.00_0.01/6aba0264aa1c4c1db721864802e37b42.webp");
+	min-height: 100px;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	text-align: center;
+	padding: 50px 80px;
+	position: relative;
+}
+
+.caption {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: rgb(90, 79, 79);
+}
+
+.caption span.border {
+	background-color: #777;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+}
+
+.content {
+	color: #777;
+	background-color: white;
+	text-align: center;
+	padding: 50px 80px;
+	position: relative;
+}
+
+.content span.quals {
+	width: 50%;
+	text-align: center;
+	padding: 50px 80px;
+	position: relative;
+}
+
+h2 {
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	font: 30px "Lato", sans-serif;
+	color: #fff;
+}
+
+h3 {
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	font: 30px "Lato", sans-serif;
+	color: #111;
+}
+
+@keyframes gradient {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0.6;
+	}
+}
