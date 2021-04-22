@@ -5,9 +5,9 @@ body {
 	height: 100%;
 	background-color: white;
 	color: white;
-	font: 400 15px/1.8 "Lato", sans-serif;
-
+	font: 100 15px/1.8 "Lato", sans-serif;
 	animation: gradient 0.5s ease-in-out;
+	font-weight: lighter;
 }
 
 .topnav {
@@ -39,7 +39,6 @@ body {
 }
 
 .parallax1 {
-	background-image: url("../images/background.png");
 	min-height: 100%;
 
 	background-attachment: fixed;
@@ -168,6 +167,7 @@ body {
 	margin-bottom: 10px;
 	font-size: 150%;
 	text-decoration: none;
+	color: black;
 }
 
 .card #details {
@@ -176,6 +176,7 @@ body {
 	font-style: italic;
 	font-size: 100%;
 	text-decoration: none;
+	color: black;
 }
 
 h2 {
