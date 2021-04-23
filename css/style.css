@@ -110,6 +110,19 @@ body {
 	width: 100%;
 	text-align: center;
 	color: rgb(90, 79, 79);
+	animation: caption-animation 1.25s ease-out;
+}
+
+@keyframes caption-animation {
+	0% {
+		transform: scale(0);
+	}
+	50% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);
+	}
 }
 
 .image-container {
