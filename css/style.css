@@ -13,7 +13,7 @@ body {
 /*Navigation Bar*/
 /*---------------------------------------------------------*/
 .topnav {
-	background-color: #a24857;
+	background-color: #6693dbff;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -91,6 +91,15 @@ body {
 
 	vertical-align: middle;
 	text-align: center;
+	position: relative;
+}
+
+#BackgroundVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
 }
 
 .parallax2 {
@@ -105,6 +114,27 @@ body {
 	text-align: center;
 	padding: 50px 80px;
 	position: relative;
+}
+
+.parallax3 {
+	min-height: 100%;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+}
+
+#HobbiesVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
 }
 
 .caption {
